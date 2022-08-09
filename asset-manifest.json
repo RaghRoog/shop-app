@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/shop-app/static/css/main.e1617e76.css",
+    "main.js": "/shop-app/static/js/main.cd54bca2.js",
+    "static/media/psx.jpg": "/shop-app/static/media/psx.13a9797a660b41e26d5f.jpg",
+    "static/media/ps5.jpg": "/shop-app/static/media/ps5.a2a75cb0495c07be774e.jpg",
+    "static/media/logo.png": "/shop-app/static/media/logo.40c3193a13b8ff20ed3b.png",
+    "static/media/bag.png": "/shop-app/static/media/bag.0e028a27fad0f562cabd.png",
+    "index.html": "/shop-app/index.html",
+    "main.e1617e76.css.map": "/shop-app/static/css/main.e1617e76.css.map",
+    "main.cd54bca2.js.map": "/shop-app/static/js/main.cd54bca2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1617e76.css",
+    "static/js/main.cd54bca2.js"
+  ]
+}
