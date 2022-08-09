@@ -22,7 +22,7 @@ const Shop = ({sendProductToParent}) => {
         return <div className="products-container">
                     {arr.map((product) => {
                     return <div className="product">
-                            <div style={{backgroundImage: `url(/product-imgs/${product.img})`}}className="image"></div>
+                            <div style={{backgroundImage: `url(./product-imgs/${product.img})`}}className="image"></div>
                             <div className="description">
                                 <div onClick={()=>{
                                     sendProductToParent(product)

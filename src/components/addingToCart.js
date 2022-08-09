@@ -11,7 +11,7 @@ let addingToCart = (product) => {
         cartProduct.classList.add('cart-product')
         let cartProductImg = document.createElement('div')
         cartProductImg.classList.add("cart-product-img")
-        cartProductImg.style.backgroundImage = `url(../product-imgs/${product.img})`
+        cartProductImg.style.backgroundImage = `url(./product-imgs/${product.img})`
         let infoContainer = document.createElement('div')
         infoContainer.classList.add('info-container')
         let cartProductInfo = document.createElement('div')
