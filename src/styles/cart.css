@@ -1,0 +1,118 @@
+.cart{
+    display: none;
+}
+.cart-container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+.nothing{
+    grid-column: 1/2;
+    background-color: lightgray;
+    opacity: 0.4;
+}
+.cart-displayer{
+    background-color: lightgray;
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+.cart-products-container{
+    width: 100%;
+    max-height: 80vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+}
+.cart-product{
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #077abd, #cf3694) 1;
+    width: 70%;
+    min-height: 15vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.checkout{
+    font-size: 2rem;
+    font-family: 'Righteous', cursive;
+    width: 30%;
+    height: 5vh;
+    background-image: linear-gradient(90deg, #077abd, #cf3694);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #077abd, #cf3694) 1;
+    transition: 0.2s;
+}
+.checkout:hover{
+    transform: scale(1.1);
+}
+.checkout:active{
+    transform: translateY(4px);
+}
+.cart-product-img{
+    grid-column: 1/2;
+    background-image: url('/public/product-imgs/ps5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.info-container{
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 6%;
+}
+.cart-product-info{
+    font-size: 1.2rem;
+}
+.cart-product-amount{
+    display: flex;
+    justify-content: space-between;
+    min-width: 20%;
+    font-size: 1.3rem;
+}
+.amount-plus, .amount-minus{
+    background-color: lightgrey;
+    font-size: 1.3rem;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #077abd, #cf3694) 1;
+    transition: 0.2s;
+}
+.amount-plus:hover, .amount-minus:hover{
+    transform: scale(1.1);
+}
+.amount-plus:active, .amount-minus:active{
+    transform: translateY(2px);
+}
+.cart-product-price{
+    grid-column: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.cart-full-price{
+    background-image: linear-gradient(90deg, #077abd, #cf3694);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
